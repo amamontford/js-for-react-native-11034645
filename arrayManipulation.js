@@ -13,9 +13,9 @@ function processArray(numberArray) {
 }
 
 // Example usage:
-// const inputArray = [1, 2, 3, 4, 5];
-// const processedArray = processArray(inputArray);
-// console.log(processedArray); // Output: [1, 4, 27, 16, 125]
+const inputArray = [1, 2, 3, 4, 5];
+const processedArray = processArray(inputArray);
+console.log(processedArray); // Output: [1, 4, 27, 16, 125]
 
 
 // Task two
@@ -40,11 +40,14 @@ function formatArrayStrings(stringArray, numberArray) {
 }
 
 // Example usage:
-// const strings = ["one", "two", "three", "four", "five"];
-// const numbers = [1, 2, 3, 4, 5];
-// const processedNumbers = processArray(numbers);
-// const formattedStrings = formatArrayStrings(strings, processedNumbers);
+const strings = ["car", "Ama", "red", "pencil", "five"];
+const numbers = [1, 2, 3, 4, 5];
+const processedNumbers = processArray(numbers);
+const formattedStrings = formatArrayStrings(strings, processedNumbers);
 
-// console.log(formattedStrings);
+console.log(formattedStrings);
 
+const test = ["car", "Ama", "red", "pencil", "five"];
+const modifiedNames = [ 'car', 'AMA', 'red', 'PENCIL', 'five' ];
 
+module.exports = { test, modifiedNames };
