@@ -40,14 +40,14 @@ function formatArrayStrings(stringArray, numberArray) {
 }
 
 // Example usage:
-const strings = ["car", "Ama", "red", "pencil", "five"];
+const strings = ["John", "Ama", "April", "Ben", "Ares"];
 const numbers = [1, 2, 3, 4, 5];
 const processedNumbers = processArray(numbers);
 const formattedStrings = formatArrayStrings(strings, processedNumbers);
 
 console.log(formattedStrings);
 
-const test = ["car", "Ama", "red", "pencil", "five"];
-const modifiedNames = [ 'car', 'AMA', 'red', 'PENCIL', 'five' ];
+const test = ["John", "Ama", "April", "Ben", "Ares"];
+const modifiedNames = [ 'john', 'AMA', 'april', 'BEN', 'ares' ];
 
 module.exports = { test, modifiedNames };
